@@ -1,0 +1,29 @@
+{
+    "criteria": 
+    {
+        "mini": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "item": "oak_log",
+                        "nbt": "{RepairCost:0, display:{Name:\"{\\\"text\\\":\\\"Mini\\\"}\"}}",
+                        "count": 
+                        {
+                            "min": 64,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "mini:oak_log"
+        ]
+    }
+}

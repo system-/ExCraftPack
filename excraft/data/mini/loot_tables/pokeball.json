@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:player_head",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"\\\"POKEBALL\\\"\"},SkullOwner:{Id:\"4f70458c-8ef0-4d2e-9c3b-b157b3ea7c29\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNlNjg3NjhmNGZhYjgxYzk0ZGY3MzVlMjA1YzNiNDVlYzQ1YTY3YjU1OGYzODg0NDc5YTYyZGQzZjRiZGJmOCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:player_head",
+                    "quality": 1,
+                    "conditions": [
+                        {
+                                "condition": "random_chance",
+                                "chance": 0.1
+                        }],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"\\\"MASTERBALL\\\"\"},SkullOwner:{Id:\"6e84900d-f2e2-484a-907e-8fe1ea154613\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFhMGQ5NDQ2NDJiOGFiNjlmOGI0ZDY2ODczMzEyZTA2YzBkM2ViZjhjMDMxYWQ0Yjg2ODVmOGFhZGI5MWQ1In19fQ==\"}]}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

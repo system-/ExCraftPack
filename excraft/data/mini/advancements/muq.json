@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "muq": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "book",
+                        "nbt": "{RepairCost:0, display:{Name:\"{\\\"text\\\":\\\"MuQ\\\"}\"}}",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "mini:muq"
+        ]
+    }
+}
